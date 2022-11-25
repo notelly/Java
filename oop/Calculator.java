@@ -3,11 +3,18 @@ package com.yedam.oop;
 public class Calculator {
 	//필드
 	
+	//정적 필드
+	static double pi = 3.14; //static은 필기체
 	
 	//생성자
 	
 	
 	//메소드
+	static int plus(int x, int y) {
+		return x+y;
+	}
+	
+	
 	int sum(int a, int b) {
 		return a+b;
 	}
